@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Potato Tapping Game",
+  "version": "0.3.4",
+  "description": "When You're Bored, Why Not Click A Potato? My Name Is Sam Or SmarshmallowVR And I Really Just Like Potatoes, Baked, Boiled, Anything Really (Except Sweet Potatoes)",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
